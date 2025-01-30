@@ -1,0 +1,54 @@
+What is Java Script?
+java Script is a Scripting Languge which we used to develop dynamic pages by using HTML and CSS.
+js is a high lvl programming language.
+js is an high lvl interprited compiled language.
+
+who invented js?
+js was intoduced by brendan eich in 10days in 1995.
+we can call it like mocha or livescript or ecma Script.
+
+how many version were in js?
+es-1-1997
+es-2-1998
+es-3-1999
+es-5-2009
+es-6-2015--react-pre requistic
+
+Why we need js?
+1.Dynamic Programming
+2.Interactive web pages
+3.Funtionalities
+4.animations
+5.Validations-form-login, signup authorization
+
+Usage of js.
+1.Web Development
+2.Mobile app Development
+3.Game Development
+4.Server Side Development
+5.Desktop application Development(We need to know Elctron)
+6.IOT(Internet Of Things)
+7.Data Visualisation.
+
+Advatages
+1.Lightweighted
+2.Cross Platform
+3.High Level
+4.Single threated
+5.Interpreted compiled-JIT(Just in time)
+6.scripting Languge
+7.Dynamically typed
+
+Run time Environment for js?
+javasript-js engine --browser
+v8 in chrome(JIT)
+spidermonkey in firefox
+chakra in Edge
+javasriptcore in Safari
+
+Syncronous code - Which doesn't takes time
+Asynchronous code - Which Takes time
+
+Runtime for js?
+runtime--> jscode --> Parsing --> Abstract Syntax Tree --> Interpreter --> Optimising Compiler -->Machine Code --> Bytecode
+call stack --> event loop --> call back queue and common will move.               
