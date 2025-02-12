@@ -1,13 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Day4</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fef9e7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #5d0467;
+            margin-bottom: 20px;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+    
+
+        .tasks {
+            display: grid;
+            grid-template-columns: repeat(1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #ac461a;
+            padding: 12px 10px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            font-size: 18px;
+            display: block;
+        }
+
+        a:hover {
+            background-color: #2874a6;
+            transform: translateY(-3px);
+        }
+
+        a:active {
+            background-color: #1b4f72;
+        }
+
+        a[href=""] {
+            background-color: #cccccc;
+            color: #666;
+            pointer-events: none;
+            cursor: not-allowed;
+        }
+        .tasks p{
+            font-size: 14px;
+        }
+    
+    </style>
 </head>
 <body>
-    
+    <center>
+    <div class="container">
+        <h1>Day4 Tasks</h1>
+
+        
+        <div class="tasks">
+            <a href="WeekMsg.html"><b>Days Message</b><br><p>Using Switch</p></a>
+
+            <a href="DiscountCalc.html"><b>DiscountCalc</b><br><p>Using Conditional statements</p></a>   
+                   
+        </div>
+    </div>
+    </center>
 </body>
-<script src="index.js"></script>
 </html>
