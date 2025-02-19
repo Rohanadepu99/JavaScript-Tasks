@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
         parent.appendChild(element);
     }
 
-    addElement("h1", "Kalpana Palusa", container);
-    addElement("p", "palusa.kalpana@gmail.com | Hyderabad, India", container, "contact-info");
+    addElement("h1", "Adepu Rohan Sai", container);
+    addElement("p", "adepurohansai@gmail.com | Hyderabad, India", container, "contact-info");
     container.appendChild(document.createElement("hr"));
 
     addElement("h2", "Education", container);
@@ -26,27 +26,27 @@ document.addEventListener("DOMContentLoaded", function () {
             <th>Marks</th>
         </tr>
         <tr>
-            <td>B.Tech - Artificial Intelligence</td>
-            <td>Vidya Jyothi Institute of Technology, Hyderabad</td>
-            <td>2020 - 2024</td>
-            <td>CGPA: 8.28</td>
+            <td>B.Tech - Computer Science</td>
+            <td>Kshatriya College Of Engineering, Nizamabad</td>
+            <td>2021 - 2024</td>
+            <td>CGPA: 6.51</td>
         </tr>
         <tr>
-            <td>Intermediate</td>
-            <td>Sri Gayatri Junior College, Hyderabad</td>
-            <td>2018 - 2020</td>
-            <td>Percentage: 92.1%</td>
+            <td>Diploma</td>
+            <td>Kshatriya College Of Engineering, Nizamabad</td>
+            <td>2017 - 2020</td>
+            <td>Percentage: 70.1%</td>
         </tr>`;
     container.appendChild(table);
     container.appendChild(document.createElement("hr"));
 
     addElement("h2", "Certifications", container);
     const certifications = [
-        "Designing Machine Learning Model Using Python - Vidya Jyothi Institute of Technology",
-        "Python (Basic) - HackerRank",
-        "Computer Vision Essentials - Great Learning Academy",
-        "Artificial Intelligence Program - Rinex",
-        "C for Everyone - Coursera"
+        "Data Analytics, ICT Academy PAYPAL",
+        "C and C++, Spoken Tutorial Project IIT Mumbai",
+        "Cryptography and Network Security, NIIT Foundation",
+        "Data Science and Machine Learning Python Udemy",
+        "UI and UX Basics to Advanced Udemy"
     ];
     const certList = document.createElement("ul");
     certifications.forEach(cert => addElement("li", cert, certList));
@@ -55,9 +55,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     addElement("h2", "Projects", container);
     const projects = [
-        "<b>Celebrity Image Classifier:</b> Developed a classifier to identify sports persons using data preprocessing.",
-        "<b>Color Sorting Machine:</b> Designed an Arduino-based machine using a TCS3200 sensor.",
-        "<b>Smart Umbrella:</b> Created an IoT-based umbrella with lightning detection and weather monitoring."
+        "<b>Minor Project</b> Face Mask Detection Btech CSE",
+        "<b>Major Project</b> Hiring and Recruitment Process Using Machine Learning",
+        "<b>Responsive Design Website</b> Car Cental Website",
     ];
     const projList = document.createElement("ul");
     projects.forEach(proj => addElement("li", proj, projList));
@@ -71,18 +71,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     addElement("h2", "Achievements", container);
     const achievements = [
-        "Participated in Contrive'2023 and made it to the best project list.",
-        "Won 2nd prize at Udbhav'22, a national-level techno-cultural fest.",
+        "Participated in Hackethon Events",
+        "Won 1st prize at Drawing Competition, at District Level.",
         "Certified in a 2-day workshop on ML model design using Python.",
-        "Active participant in Design-a-thon coding contest."
+        "Active participant in Design-a-thon coding event."
     ];
     const achList = document.createElement("ul");
     achievements.forEach(ach => addElement("li", ach, achList));
     container.appendChild(achList);
     container.appendChild(document.createElement("hr"));
 
-    addElement("h2", "Test Scores", container);
-    addElement("p", "<b>Duolingo:</b> 115", container);
+    addElement("h2", "Awards", container);
+    addElement("p", "Quiz Competition</b> Advanced", container);
     container.appendChild(document.createElement("hr"));
 
     const footer = document.createElement("footer");
